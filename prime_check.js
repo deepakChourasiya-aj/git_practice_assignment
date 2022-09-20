@@ -3,10 +3,21 @@
 let check_prime(num){
 
     for(let i=1;i<=num;i++){
-        if(num%i){
-            return true;
+let factor=0
+        if(num%i==0){
+factot++
+           
         }
     }
-
+if(factor==2){
+return true;
+}else{
+return false
 }
-check_prime(45);
+}
+let ans=check_prime(45);
+if(ans==true){
+return true;
+}else{
+return false
+}
