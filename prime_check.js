@@ -15,3 +15,4 @@ let check_prime(num){
 }
 
 console.log(check_prime(5));
+
