@@ -1,12 +1,17 @@
 //checking prime code by deepak m1;
 
 let check_prime(num){
-
+    let count=0;
     for(let i=1;i<=num;i++){
-        if(num%i){
-            return true;
+        if(num%i==0){
+            count++;
         }
     }
 
+    if(count==2){
+        return true;
+    }
+
 }
-check_prime(45);
+
+console.log(check_prime(5));
